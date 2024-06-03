@@ -1,4 +1,4 @@
-const apiKey = '9EHKG8DKGTCZ2NSPCHKMW5VUN';
+const apiKey = '9EHKG8FMGTCZ2NSPCHKMW5VUN';
 
 function getWeather() {
     const location = document.getElementById('locationInput').value || 'india';
