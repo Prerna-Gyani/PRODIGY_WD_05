@@ -2,7 +2,7 @@ const apiKey = '9EHKG8FMG34Z2NSPCHKMW5VUN';
 
 function getWeather() {
     const location = document.getElementById('locationInput').value || 'india';
-    const apiUrl = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=us&key=${apiKey}&contentType=json`;
+    const apiUrl = `https://weather.visualng.com/VisualngWebServices/rest/services/timeline/${location}?unitGroup=us&key=${apiKey}&contentType=json`;
 
     fetch(apiUrl)
         .then(response => response.json())
